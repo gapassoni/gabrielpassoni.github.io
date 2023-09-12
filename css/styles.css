@@ -197,12 +197,14 @@
 
 /* Mobile */
 
-@media(max-widht: 450px) {
+@media(max-width: 600px) {
+
     #container {
         flex-direction: column;
     }
     
     #bio-container {
+        max-width: auto;
         min-height:  auto;
         border-right: none;
         border-bottom: 5px solid var(--bio-border-color);
