@@ -15,11 +15,21 @@
     --bio-bg-color: #181818;
     --bio-border-color: #ae00ff;
     --about-bg-color: #141121;
+    --ifcolor: #0eef19;
+    --boschrex: #2d5ff6;;
 }
 
 /* General */
 .highlight {
     color: var(--main-color);
+}
+
+.ifsp {
+    color: var(--ifcolor);
+}
+
+.bosch {
+    color: var(--boschrex);
 }
 
 /* Containers */
